@@ -25,10 +25,13 @@ do {
   if (isNaN(input)) {
     alert("Было введено не число, попробуйте еще раз");
   } else {
-    numbers.push(input);
-    total += Number(input);
+    numbers.push(Number(input));
   }
 } while (input !== null);
+
+for (let number of numbers) {
+  total += number;
+}
 
 console.log(`Общая сумма чисел равна ${total}`);
 
