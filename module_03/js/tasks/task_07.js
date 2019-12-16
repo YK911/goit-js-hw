@@ -98,9 +98,7 @@ const account = {
    * Метод возвращает количество средств
    * определенного типа транзакции из всей истории транзакций
    */
-  getTransactionTotal(type) {
-    
-  }
+  getTransactionTotal(type) {}
 };
 
 account.deposit(700);
@@ -110,7 +108,4 @@ account.withdraw(100);
 console.log(account.getBalance()); //900
 console.log(account.getTransactionDetails(0)); // {id:0, type:deposit, amount:700}
 // console.log(account.getTransactionTotal(Transaction.DEPOSIT)); //1000
-
 console.log(account.transactions);
-
-export default account;
