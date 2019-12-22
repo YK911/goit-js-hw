@@ -1,0 +1,25 @@
+/* Задание 3 */
+#gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul#gallery > li {
+  width: 302px;
+  height: 200px;
+  border: 5px solid #d1d3e5;
+  list-style: none;
+}
+
+/* Задание 6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
