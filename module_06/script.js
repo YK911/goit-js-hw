@@ -1,4 +1,7 @@
 "use strict";
+// Please, uncomment the line of task to start script!
+//By default, task1.js is running;
+
 import getUserNames from "./tasks/task_01.js";
 // import countProps from "./tasks/task_02.js";
 // import getUsersWithGender from "./tasks/task_03.js";
