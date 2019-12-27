@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #b2bec3;
+}
+.clock {
+  width: auto;
+}
+
+.flip-clock-dot {
+  background: #ccc;
+}
+
+.flip-clock-meridium a {
+  color: #313333;
+}
