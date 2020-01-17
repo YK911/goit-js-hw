@@ -11,6 +11,6 @@ const clock = $('.clock').FlipClock(3600 * 24 * 3, {
 
 const date = new Date('Dec 31, 2020  24:00:00');
 const currentTime = new Date();
-const time = (date - currentTime) / 1000;
+const time = (date - currentTime) / 10000;
 clock.setTime(time);
 clock.start();
